@@ -39,3 +39,7 @@ Untracked files: git doesn't know anything about this file.
 git add <filename> -> command to tell git which file to track
 git . -> Means tack all the files which is listed in git status in both the untrackt and modified section(git period)
 So both the file README.md and index.html will be staged with Git if we did "git add . "
+
+3. git commit -m "Added index.html from local" -m "Some description"
+
+Even after commit we saved it locally. Commit isn't live on Github yet. We make it live by using another git command "git push"
